@@ -1,0 +1,16 @@
+#.gitignore
+#para el conjunto de librerias SGCode-libs
+#
+#Autor: SamuelGCode
+#correo:samale456@gmail.com
+
+#librerias
+c++/lib/*.a
+c++/lib/*.so
+
+#archivos objetos
+c++/build/*.o
+
+#sublime text
+SGCode-libs.sublime-project
+SGCode-libs.sublime-workspace
