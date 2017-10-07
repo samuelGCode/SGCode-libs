@@ -16,7 +16,7 @@ namespace SGCode{
 	class List{
 	private:
 		//puntero principal a la lista
-		Node<TypeList>* listNode;
+		Node<TypeList>* head;
 		//cantidad de elementos de la lista
 		int nElements;
 

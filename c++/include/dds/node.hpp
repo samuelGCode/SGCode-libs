@@ -26,9 +26,18 @@ namespace SGCode{
 		Node<TypeNode>* previousNode;
 
 	public:
+		//constructor inicializador por defecto
 		Node();
-		Node(TypeNode nd);
+		//constructor inicializador
+		Node(const TypeNode nd);
+		//destructor de los datos dinamicos
 		~Node();
+		
+		TypeNode getData();
+
+		Node<TypeNode>& getNex();
+
+		Node<TypeNode>& getPrevius();
 	};
 
 }
